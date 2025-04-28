@@ -991,4 +991,4 @@ async def process_cpwp(bot: Client, m: Message, user_id: int):
             await CONNECTOR.close()
 
                                         
-bot.run()
+bot.run(python)
